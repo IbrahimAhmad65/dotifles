@@ -1,0 +1,22 @@
+00:00:00.222166 VirtualBox GUI VM Selector Window 6.1.32 r149290 linux.amd64 (Jan 18 2022 20:32:19) release log
+00:00:00.222169 Log opened 2022-01-25T04:32:46.537535000Z
+00:00:00.222169 Build Type: release
+00:00:00.222172 OS Product: Linux
+00:00:00.222173 OS Release: 5.16.2-arch1-1
+00:00:00.222175 OS Version: #1 SMP PREEMPT Thu, 20 Jan 2022 16:18:29 +0000
+00:00:00.222198 DMI Product Name: Inspiron 3558
+00:00:00.222208 DMI Product Version: 
+00:00:00.222213 Firmware type: UEFI
+00:00:00.222402 Secure Boot: Disabled
+00:00:00.222443 Host RAM: 7860MB (7.6GB) total, 5965MB (5.8GB) available
+00:00:00.222446 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.222447 Process ID: 36643
+00:00:00.222448 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.222483 Qt version: 5.15.2
+00:00:00.256453 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.958263 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 683x24 x 683x372
+00:00:00.958325 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 683x396 x 683x372
+00:00:00.990795 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:22.089344 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:22.104659 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:25.290583 GUI: UIMediumEnumerator: Medium-enumeration finished!
