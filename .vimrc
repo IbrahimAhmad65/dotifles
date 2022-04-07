@@ -1,3 +1,12 @@
+set shell=powershell.exe
+set shellcmdflag=-NoProfile\ -NoLogo\ -NonInteractive\ -Command
+set shellpipe=|
+set shellredir=>
+augroup QuickFix
+     au FileType qf map <buffer> j j<CR><C-w>w
+     au FileType qf map <buffer> k k<CR><C-w>w
+augroup END
+
 set laststatus=2
 set statusline=%F
 set statusline+=%=
@@ -39,3 +48,10 @@ command! -nargs=0 Reload so $MYVIMRC
 so ./.vim/plugin/search.vim
 let g:projDir = 'C:/Users/Tators\ 03/Desktop/code/TransporTator/'
 command! -nargs=1 JS :call SearchFuncJava(<args>)
+autocmd Filetype java set makeprg=javac\ %
+set errorformat=%A%f:%l:\ %m,%-Z%p^,%-C%.%#
+map <C-f> :make<Return>:copen<Return>
+noremap <C-d> :cd ~/Desktop/code/TransporTator/<CR>:!~/Desktop/code/TransporTator/build.bat<Return>
+noremap <C-h> :vert new<CR>:cd ~/Desktop/code/TransporTator/<CR>:0read !~/Desktop/code/TransporTator/deploy.bat<Return>
+"noremap <C-d> :vert new<CR>:cd ~/Desktop/code/TransporTator/<CR>:0read !~/Desktop/code/TransporTator/build.bat<Return>"
+"noremap <C-h> :vert new<CR>:cd ~/Desktop/code/TransporTator/<CR>:0read !~/Desktop/code/TransporTator/deploy.bat<Return>"
